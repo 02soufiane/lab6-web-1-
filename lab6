@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Суфіан lab6</title>
+  <style>
+    body {
+      margin: 0;
+      width: 100%;
+      height: 100vh;
+      font-family: "Exo", sans-serif;
+      color: #fff;
+      background: linear-gradient(45deg, #5f6e9f, #5f2c82, #111322, #b0236e);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .containerbanner {
+      width: 100%;
+      position: absolute;
+      top: 35%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="containerbanner">
+    <h1>Суфіан lab6</h1>
+  </div>
+</body>
+</html>
